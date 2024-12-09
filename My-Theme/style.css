@@ -1,0 +1,118 @@
+/*
+Theme Name: EduFlexion
+Theme URI: http://example.com
+Author: Flare Pixel
+Author URI: https://flarepixel.com/
+Description: A custom WordPress theme.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: EduFlexion
+*/
+
+/* General Reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+}
+
+/* Awards Section */
+.awards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.award {
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+}
+
+.award span {
+    font-size: 24px;
+}
+
+.award strong {
+    font-weight: bold;
+    color: #000;
+}
+
+/* Main Content */
+.content h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #5f49f4; /* Purple color for heading */
+}
+
+.content p {
+    font-size: 1rem;
+    color: #333;
+    max-width: 600px;
+    margin: 10px auto 30px;
+}
+
+.content p strong {
+    color: #000;
+}
+
+/* CTA Buttons */
+.cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.cta-button {
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.cta-button.primary {
+    background-color: #5f49f4;
+    color: #fff;
+}
+
+.cta-button.primary:hover {
+    background-color: #3e30aa;
+}
+
+.cta-button.secondary {
+    background-color: #fff;
+    color: #5f49f4;
+    border: 2px solid #5f49f4;
+}
+
+.cta-button.secondary:hover {
+    background-color: #5f49f4;
+    color: #fff;
+}
+#sidebar {
+    background: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.widget {
+    margin-bottom: 20px;
+}
+
+.widget-title {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
